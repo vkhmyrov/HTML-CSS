@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: beosupreme, Helvetica, LexendDeca-Regular;
+}
+
+@font-face {
+	font-family: 'LexendDeca-Regular';
+	src: url('../font/LexendDeca-Regular/fonts/LexendDeca-Regular.eot');
+	src: local('☺'), url('../font/LexendDeca-Regular/fonts/LexendDeca-Regular.woff') format('woff'), url('../font/LexendDeca-Regular/fonts/LexendDeca-Regular.ttf') format('truetype'), url('../font/LexendDeca-Regular/fonts/LexendDeca-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto ;
+	background: #f2f2f2;
+}	
+
+header img {
+	display: block;
+	width: 600px;
+}
+
+div.first-container {
+	background: #111111;
+	padding: 0px 0 1px 0;
+
+
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding-top: 80px;
+	font-size: 12px;
+	font-weight: 700px;
+	color: #ffffff;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 40px;
+}
+
+button.discover {
+	display: block;
+	margin: 0px auto 10px;
+	border: none;
+	background-color: rgb(255, 196, 87);
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	border-radius: 50px;
+	width: 240px;
+	padding: 10px 20px;
+}
+
+button.experience {
+	display: block;
+	margin: 0 auto 60px;
+	border: 2px solid rgb(39, 39, 39);
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	border-radius: 50px;
+	width: 240px;
+	padding: 10px 20px;
+}
+
+.first-container img {
+	width: 540px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.first-container p {
+	padding-top: 20px;
+}
+
+.first-container :nth-child(8) {
+	display: block;
+	margin: 40 auto 50px;
+	border: none;
+	background-color: rgb(255, 196, 87);
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	border-radius: 50px;
+	width: 240px;
+	padding: 10px 20px;
+}
+
+div.last-container {
+	background: #add5bb;
+	padding: 0 0 1px;
+
+}
+
+h2 {
+	margin-top: 0px;
+	padding-top: 40px;
+	text-align: center;
+	color: white;
+}
+
+.last-container button {
+	display: block;
+	margin: 10px auto 50px;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	border-radius: 50px;
+	width: 240px;
+	padding: 10px 20px;
+}
+
+footer {
+	background: #111111;
+}
+
+footer img {
+	width: 110;
+	display: block;
+	padding-top: 60px;
+	margin: 0 auto 30px;
+	text-align: center;
+
+}
+
+footer button {
+	display: block;
+	margin: 0 auto 50px;
+	border: none;
+	background-color: rgb(255, 196, 87);
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+	border-radius: 50px;
+	width: 240px;
+	padding: 10px 20px;
+
+}
+
+ul.un-sell-propos {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+
