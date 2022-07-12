@@ -157,10 +157,39 @@ footer button {
 
 }
 
+hr {
+	border: none;
+	border-top: 0.5px solid #ffffff;
+}
+
 ul.un-sell-propos {
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
+	padding-left: 0;
 }
 
+.un-sell-propos li {
+	width: 200px;
+}
+
+.un-sell-propos img {
+	width: 40px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.un-sell-propos p {
+	font-size: 10px;
+	margin-bottom: 5px;
+
+}
+
+
+
+ul.socnetwork {
+	display: flex;
+	justify-content: space-between;
+}
 
