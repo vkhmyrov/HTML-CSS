@@ -7,40 +7,52 @@
       <meta name="author" content="Vadym Khmyrov">
       <meta name="keywords" content="html css pages"> 
       <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="main.css">
    </head>
-   <body>
-      <header>
-         <h1>Hello tittle page HTML-CSS</h1>
-         <nav></nav>
-      </header>
-      <aside>
-         <ul>
-            <li>
-               <a href="">Emails</a>
-            </li>
-            <li>
-               <a href="">Other</a>
-            </li>
-         </ul>
-      </aside>
-      <aside>
-         <ul>
-            <li >
-               <a href="../HTML-CSS/adobe-page/letter-1/index.html">Letter-1</a>
-            </li>
-            <li>
-               <a href="../HTML-CSS/adobe-page/letter-2/index.html">Letter-2</a>
-            </li>
-         </ul>
-      </aside>
-      <main>
-         <section>
-            
-         </section>
+   <body class="body" id="body">
+      <main class="container-main" id="container-main">
+         <aside class="sidebar-left" id="sidebar-left">
+            <div>
+               <p class="logo" id="logo">HTML-CSS</p>
+               <hr>
+            </div>
+            <div>
+               <nav>
+                  <div>
+                     <ul>
+                        <li>
+                           <a href="">Emails</a>
+                        </li>
+                        <li>
+                           <a href="">Bang&Olufsen</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div>
+                     <ul>
+                        <li >
+                           <a href="../HTML-CSS/adobe-page/letter-1/index.html">Letter-1</a>
+                        </li>
+                        <li>
+                           <a href="../HTML-CSS/adobe-page/letter-2/index.html">Letter-2</a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </aside>
+         <aside class="sidebar-right" id="sidebar-right">
+            <header class="header" id="header">
+               <p>Hello tittle page HTML-CSS</p>
+            </header>
+            <main>
+               <section>
+               
+               </section>
+            </main>
+         </aside>
       </main>
-
-   <footer></footer>
-   <script type="text/javascript" src="jc/script.js"></script>
+      <footer></footer>
+      <script type="text/javascript" src="jc/script.js"></script>
    </body>
-   </html>
+</html>
