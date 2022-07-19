@@ -14,6 +14,12 @@ body {
 
 .sidebar-left {
     flex-basis: 20%;
+    min-height: 600px;
+    padding: 0 20px;
+}
+
+.sidebar-left-header {
+    margin-bottom: 60px;
 }
 
 .sidebar-right {
@@ -28,4 +34,45 @@ body {
 
 .header p {
     color: white;
+    margin: 0;
+    
+
+}
+
+.content {
+    display: none;
+
+}
+
+.content div {
+
+}
+
+.content:target {
+    display: block;
+
+}
+
+.adobe-page-1 { 
+   border: none;
+   width: 100%;
+   height: 1360px;
+}
+
+.adobe-page-2 {
+    border: none;
+    width: 100%;
+    height: 1720px;
+}
+
+.bangolufsen-page-1 { 
+   border: none;
+   width: 100%;
+   height: 3200px;
+}
+
+.bangolufsen-page-2 { 
+   border: none;
+   width: 100%;
+   height: 2060px;
 }
